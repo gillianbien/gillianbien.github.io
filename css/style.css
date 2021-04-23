@@ -1,13 +1,19 @@
 body {
     font-size: 16px;
+    
 }
-header{
+header, main, footer{
     max-width: 760px;
     margin: 0 auto;
 
 }
-img {
+header, footer{
+    border:1px;
+    padding:1rem;
+    background-color:blueviolet;
+}
+header img {
     float: right;
-    width: 200px;
+    width: 150px;
     height: auto;
 }
