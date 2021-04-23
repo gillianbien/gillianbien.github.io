@@ -9,7 +9,6 @@ header, main, footer{
 }
 header, footer{
     border:1px;
-    border-radius:.5px;
     padding:1rem;
     background-color:blueviolet;
 
@@ -19,3 +18,4 @@ header img {
     width: 150px;
     height: auto;
 }
+h1{color:cornsilk;}
