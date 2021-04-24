@@ -9,7 +9,7 @@ header, main, footer{
 }
 header, footer{
     border:1px;
-    border-radius: .5px;
+    border-radius: 5px;
     padding:1rem;
     background-color:cornflowerblue;
 
@@ -19,5 +19,14 @@ header img {
     width: 150px;
     height: auto;
 }
-h1{color:cornsilk;}
+h1{color:cornsilk;
+ font-family:cursive;
+margin-left:2em;}
+h2{border-bottom:ridge;
+   border-color: grey;}
 main{ background-color:cornsilk;}
+footer p{margin-left:15em;
+         color:floralwhite; }
+#perInfo{ margin-left:10em;
+    color:floralwhite;}
+footer span a{color:floralwhite;}
