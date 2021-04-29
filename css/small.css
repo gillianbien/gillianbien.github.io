@@ -1,0 +1,43 @@
+body {
+    font-size: 16px;
+    font-family: 'Noto Serif', serif;
+    
+}
+header, main, footer{
+    max-width: 760px;
+    margin: 0 auto;
+
+}
+header, footer{
+    border:1px;
+    padding:1rem;
+    background-color:rgb(21, 78, 153);
+
+}
+header img {
+    width: 150px;
+    height: auto;
+}
+h1{color:cornsilk;
+  font-family: 'Original Surfer', cursive;
+  margin:.25rem;
+    font-size:1.5 rem;
+}
+h2{border-bottom:ridge;
+   border-color: grey;
+    font-size:1 rem;}
+main{ background-color:cornsilk;}
+footer p{
+         color:floralwhite;
+         grid-column: 3/6;
+        
+       
+}
+#perInfo{ 
+    color:floralwhite;
+    grid-column:2/7;}
+   
+footer span a{color:floralwhite;}
+footer{  display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;}
+ 
