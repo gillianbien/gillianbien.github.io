@@ -61,7 +61,7 @@ footer{  display: grid;
         font-size:1em;}
 div {
             color:floralwhite;
-            grid-column: 3/5;
+            grid-column: 2/5;
             font-size:1em;
             padding-bottom: .5em;}
 

@@ -17,4 +17,6 @@
     #perInfo{ 
         font-size:1.3em;
     }
+    div {
+        grid-column: 3/5;}
     }
