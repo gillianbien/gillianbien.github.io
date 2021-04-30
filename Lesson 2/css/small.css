@@ -1,8 +1,6 @@
 header, footer{
     background-color:rgb(10, 47, 87);
-    border-radius: 10px;
     padding:.5em;
-   
     }
 
 body{max-width:960px;
@@ -18,23 +16,19 @@ main{display:grid;
     grid-template-columns:1fr;}
 span:nth-child(1){
     grid-column:1/2;
-    margin:1em;
     padding:1em;
-    border-radius:10px;
+  
 }
 span:nth-child(2){
-    margin:1em;
-    padding:1em;
-    border-radius:10px;
+   padding:1em;
+    
 }
 span:nth-child(3){
-    margin:1em;
     padding:1em;
-    border-radius:10px;
+   
 }
 main span {
-    background-color:rgb(187, 241, 243);
-    border-style:groove;
+    background-color:rgb(187, 248, 248);
     text-align:center;
 }
 header{
@@ -60,14 +54,14 @@ footer{  display: grid;
         grid-column:2/6;
         font-size:1em;}
 div {
-            color:floralwhite;
-            grid-column: 2/5;
-            font-size:1em;
-            padding-bottom: .5em;}
+        color:floralwhite;
+        grid-column: 2/5;
+        font-size:1em;
+        padding-bottom: .5em;}
 
     
 
-h3{background-color: rgb(10, 47, 87);
+h3{background-color: rgb(21, 75, 133);
    padding:.5em;
    margin:-1em;
    color:rgb(255, 254, 251);
