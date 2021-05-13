@@ -30,6 +30,8 @@ nav {
 	background-color: #102E4A;
 	text-align: center;
 	box-shadow: 0 2px 15px gray;
+    margin: 0 auto;
+	max-width: 760px;
 }
 nav ul {
 	list-style-type: none;
@@ -52,6 +54,24 @@ nav a:hover {
 }
 .active {
 	color: #F2A840;}
+.navigation li:first-child {
+	display: block;
+}
+.navigation li {
+	display: none;
+}
+.navigation a {
+	display: block;
+	padding: 0.75rem;
+	text-align: left;
+	text-decoration: none;
+	color: black;
+	font-weight: 700;
+}
+.navigation a:hover {
+	color: white;
+	background-color: black;
+}
 main{
     background-color:#E2EEF3;
     padding-bottom:2rem;

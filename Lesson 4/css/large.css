@@ -1,0 +1,9 @@
+@media only screen and (min-width: 60em){
+    header img{ width:120px;
+    } 
+.navigation li{
+font-size:1.2rem;
+padding:6px;
+}
+h1{font-size:2rem}
+}
