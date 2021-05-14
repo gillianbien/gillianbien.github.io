@@ -25,6 +25,7 @@ headings{
 	letter-spacing: 1pt;
     margin-left: 20px;
 	font-size: .9rem;
+    color: #102E4A;
 }
 header,
 nav,
@@ -33,7 +34,8 @@ footer {
 	max-width: 1000px;
 	margin: 0 auto;
     box-shadow: 0 2px 15px gray;}
-h1{ font-size:1.2rem;}
+h1{ font-size:1.2rem;
+    }
 nav {
         background-color: #102E4A;
         text-align: center;
@@ -65,7 +67,8 @@ nav {
     }
 .active {
         color: #F2A840;}
-.navigation li:first-child{display: block;
+.navigation li:first-child{
+                display: block;
                             }
 .responsive li{
     display:block;
@@ -80,5 +83,12 @@ h1,h2, h3, h4, h5, h6 {
         color: #102E4A;}
 main p{
     border-style:outset;
-    padding:2px;
-    text-align:center;}
+    padding:5px;
+    margin:1px;
+    text-align:center;
+    background-color:#8ba9ad;}
+footer span, footer p{
+    font-family:'Esteban', serif;
+    font-size:.6rem;
+    color: #102E4A;
+}
