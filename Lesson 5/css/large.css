@@ -1,0 +1,31 @@
+@media only screen and (min-width: 60em){
+    header img{ width:120px;
+    } 
+.navigation li{
+font-size:1.2rem;
+padding:6px;
+}
+h1{font-size:2rem}
+main p{font-size:1.3rem;}
+footer span, footer p{
+    font-size:1rem;}
+.motto{
+    font-size:1.1rem;
+}
+.stats{
+    top:30px;}
+.heropicture{
+    width:100%;
+    height:60%;
+    margin: 0;
+}
+.flex-item {
+  
+    padding: 10px;
+    width: 130px;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  
+}
+}
