@@ -1,0 +1,9 @@
+h1{
+    background-color:blueviolet;
+    text-align:center;
+}
+img{
+    display:block;
+    text-align:center;
+    margin: 2px auto 2px auto;
+}
