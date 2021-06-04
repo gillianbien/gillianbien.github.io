@@ -26,3 +26,6 @@ imagesToLoad.forEach((img) => {
       loadImages(img);
     });
   }
+  const imgOptions= {
+    threshold: 0,
+    rootMargin: "0px 0px 300px 0px"}
