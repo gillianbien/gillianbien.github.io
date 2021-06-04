@@ -172,4 +172,7 @@ footer span, footer p{
     img[data-src] {
             filter: blur(0.2em);
           }
+    figcaption{
+        padding: 5px;
+    }
     
