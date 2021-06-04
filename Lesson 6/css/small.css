@@ -165,9 +165,10 @@ footer span, footer p{
          transition: filter 0.5s;
         
        }
-    #galleryDiv img:hover {box-shadow: 0 0 50px #333;}
+    #galleryDiv picture:hover {box-shadow: 0 0 50px #333;}
     #galleryDiv picture{
-        margin-bottom: 15px;}
+        margin-bottom: 20px;
+        padding-bottom: 10px;}
     img[data-src] {
             filter: blur(0.2em);
           }
