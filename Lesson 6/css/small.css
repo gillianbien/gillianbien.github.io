@@ -151,4 +151,24 @@ footer span, footer p{
       padding:10px;
       text-align: center;
       font-weight:bold;}
-      
+    #galleryDiv{
+        display:grid;
+        grid-template-columns: 1fr;
+        max-width:1000px;
+        grid-gap: 7px;
+        margin:5px 8px 10px 8px;
+    }
+    #galleryDiv img{
+        width:100%;
+        margin-bottom: 2px;
+        filter: blur(0em);
+         transition: filter 0.5s;
+        
+       }
+    #galleryDiv img:hover {box-shadow: 0 0 50px #333;}
+    #galleryDiv picture{
+        margin-bottom: 15px;}
+    img[data-src] {
+            filter: blur(0.2em);
+          }
+    

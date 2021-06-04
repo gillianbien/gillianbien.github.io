@@ -28,4 +28,5 @@ footer span, footer p{
     margin-bottom: 10px;
   
 }
+#galleryDiv{grid-template-columns: 1fr 1fr 1fr;}
 }
