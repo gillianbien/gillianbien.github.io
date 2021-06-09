@@ -1,7 +1,7 @@
 table{
     font-family: 'Ubuntu', sans-serif;
     border-collapse:collapse;
-    box-shadow: 10px 10px 10px #7fb9c2;
+    box-shadow: 10px 10px 10px #649ba3;
 }
 .highlight{
     background-color:#628ca6;
@@ -21,4 +21,7 @@ tr:nth-child(1){
     font-size:2em;
     font-stretch: wider;
     font-weight: 900;
+}
+tfoot{
+    font-size:7px;
 }
