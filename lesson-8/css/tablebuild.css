@@ -1,0 +1,24 @@
+table{
+    font-family: 'Ubuntu', sans-serif;
+    border-collapse:collapse;
+    box-shadow: 10px 10px 10px #7fb9c2;
+}
+.highlight{
+    background-color:#628ca6;
+    color:white;
+}
+tr{
+    background-color:#e7f0ed;
+}
+td, th{
+    border: 1px solid  rgb(211, 210, 210);
+    text-align:center;
+    padding: 5px 10px;
+    font-weight: bold;
+}
+tr:nth-child(1){
+    background-color:#7fb9c2;
+    font-size:2em;
+    font-stretch: wider;
+    font-weight: 900;
+}
