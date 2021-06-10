@@ -10,13 +10,13 @@ table{
 tr{
     background-color:#e7f0ed;
 }
-td, th{
+td {
     border: 1px solid  rgb(211, 210, 210);
     text-align:center;
     padding: 5px 10px;
     font-weight: bold;
 }
-tr:nth-child(1){
+th, tfoot tr td {
     background-color:#7fb9c2;
     font-size:2em;
     font-stretch: wider;
@@ -25,3 +25,7 @@ tr:nth-child(1){
 tfoot{
     font-size:7px;
 }
+tr:nth-child(6) td:nth-child(1){
+    font-style: italic;
+}
+    
