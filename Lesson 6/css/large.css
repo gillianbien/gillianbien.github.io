@@ -30,3 +30,13 @@ footer span, footer p{
 }
 #galleryDiv{grid-template-columns: 1fr 1fr 1fr;}
 }
+/*----------------forms------------------------------------------------*/
+    form fieldset{
+        padding:2rem 10%;
+    }
+    form label.top input, label textarea, form label select {
+       padding:.75rem;
+    }
+    input.submitButton{
+        margin: 0 0 2rem 5rem;
+    }

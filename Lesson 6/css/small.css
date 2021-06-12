@@ -178,7 +178,7 @@ footer span, footer p{
     /*----------------- forms ----------------------*/
     
     form fieldset {
-        margin:2rem 0rem;
+        margin:.5rem;
         border: 1px solid #102E4A;
         border-radius: 10px;
         padding:.5rem 2%;
@@ -187,7 +187,7 @@ footer span, footer p{
         display:block;
        border: solid 1px #102E4A;
        border-radius: 4px;
-       padding:.75rem;
+       padding:.50rem;
        color:#36454f;
        width: 100%;
        max-width:20rem;
@@ -213,7 +213,7 @@ footer span, footer p{
         color:#102E4A;
         border-radius:1rem;
         padding:.5rem 1.5rem;
-        margin: 0 0 2rem 5rem;
+        margin: 0 0 2rem 1.5rem;
         width:90%;
         max-width:20rem;
     }
