@@ -1,0 +1,41 @@
+.cards{
+    display:grid;
+    grid-template-columns: 1fr;
+    gap:5px;
+    padding: 10px;
+    box-shadow: 0 2px 50px gray;
+   
+
+}
+section{
+    background-color: rgb(193, 175, 209);
+    border-style:ridge;
+    border-color: rgb(193, 175, 209);
+   
+}
+h2{
+    color:rgb(76, 31, 160);
+    text-align: center;
+    font-family: 'Benne', serif;
+
+}
+p{
+    text-align: center;
+    margin-bottom: 3px;
+    font-weight: bolder;
+    padding-bottom:3px;
+}
+img{
+    width: 75%;
+    margin:5px 45px 10px 45px;
+    box-shadow: 0 2px 50px gray;
+}
+h1{
+    text-align: center;
+    color:rgb(72, 22, 153);
+    font-family: 'Benne', serif;
+}
+footer{
+    text-align: center;
+    padding: 15px;
+}
