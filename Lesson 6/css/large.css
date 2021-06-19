@@ -40,3 +40,11 @@ footer span, footer p{
     input.submitButton{
         margin: 0 0 2rem 7rem;
     }
+/*-------------------------------JSon-----------------------------------*/
+.cards{
+    grid-template-columns: 1fr 1fr 1fr;
+}
+article {
+	max-width: 900px;
+}
+	

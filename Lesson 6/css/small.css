@@ -223,4 +223,15 @@ footer span, footer p{
     form label.top input:required:valid{
         border-left:green solid 6px;
     }
-    
+    /*--------------------------Json Data---------------------------*/
+    .cards{
+        display:grid;
+        grid-template-columns: 1fr;
+
+    }
+    .cards h2{
+        text-align: center;
+    }
+    .cards h4{
+        text-align: center;
+    }

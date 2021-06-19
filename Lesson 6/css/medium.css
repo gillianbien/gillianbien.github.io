@@ -23,4 +23,29 @@
 }
 #galleryDiv{grid-template-columns: 1fr 1fr;}
 }
-/*-------------------------forms-----------------------------------*/
+/*-----------------------------------------------------------*/
+.cards h2 {text-align:center;}
+
+article {
+	max-width: 600px;
+  margin: .5rem auto;
+	border:1px solid #bbb;
+  background-color: #eee;
+}
+
+.cards {
+	grid-template-columns: 1fr 1fr;
+}
+
+.cards:nth-child(odd) img {
+	grid-column: 2;
+}
+
+.cards:nth-child(odd) .data {
+	grid-column: 1;
+	grid-row: 1;
+}
+
+.cards img {width: 100%; height: auto;padding:0;}
+.data {background-color:#000; color:#fff;}
+p {padding: .75rem;}
