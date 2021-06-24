@@ -33,7 +33,7 @@ article {
   background-color: #eee;
 }
 
-.cards {
+.cards section {
 	grid-template-columns: 1fr 1fr;
 }
 
@@ -44,6 +44,9 @@ article {
 .cards:nth-child(odd) .data {
 	grid-column: 1;
 	grid-row: 1;
+}
+.cards{
+  grid:none;
 }
 
 .cards img {width: 100%; height: auto;padding:0;}
