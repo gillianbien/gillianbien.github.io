@@ -51,22 +51,21 @@
         </photo>
          <section class="stats">
              <h3>Weather Summary</h3>
-             <p>Currently:Sunny</p>
-             <p>Wind Chill: <span id="outputspan"></span></p>
-             <p>High:<span id="inputTemp">50</span> F</p>
-             <p>Humidity:65%</p>
-             <p>Precipitation:0 inches</p>
-             <p> Wind Speed:<span id="inputWind">5</span> mph </p>
+             <p>Currently:<span id="descript"></span></p>
+             <p>Wind Chill: <span id="outputspan">&deg;F</span></p>
+             <p>High:<span id="outputTemp"></span>&deg;F</p>
+             <p>Humidity:<span id="humid"></span></p>
+             <p> Wind Speed:<span id="outputWind"></span> mph </p>
          </section>
      </div>
      
      <h2>5 day Forecast</h2>
      <ul class="flex-container">
-      <li class="flex-item">Monday</li>
-      <li class="flex-item">Tuesday</li>
-      <li class="flex-item">Wednesday</li>
-      <li class="flex-item">Thursday</li>
-      <li class="flex-item">Friday</li>
+      <li class="flex-item"><span id="dayofWeek1"></span><span id="imagesrc"></span> &nbsp; <img src="" alt="" id="icon"><span id="forecast1"></span>&deg; F</li>
+      <li class="flex-item"><span id="dayofWeek2"></span><span id="imagesrc"></span> &nbsp; <img src="" alt="" id="icon"><span id="forecast2"></span>&deg; F</li></li>
+      <li class="flex-item"><span id="dayofWeek3"></span><span id="imagesrc"></span> &nbsp; <img src="" alt="" id="icon"><span id="forecast3"></span>&deg; F</li></li>
+      <li class="flex-item"><span id="dayofWeek4"></span><span id="imagesrc"></span> &nbsp; <img src="" alt="" id="icon"><span id="forecast4"></span>&deg; F</li></li>
+      <li class="flex-item"><span id="dayofWeek5"></span><span id="imagesrc"></span> &nbsp; <img src="" alt="" id="icon"><span id="forecast5"></span>&deg; F</li></li>
     </ul>
     <div class="articleDiv">
       <h2>Article</h2>
@@ -90,6 +89,8 @@
        'Esteban']}});
   </script>
   <script src="../Lesson 6/js/windchill.js"></script>
+  <script src="js/prestonapi.js"></script>
+  <script src="js/forecast.js"></script>
 
 
   

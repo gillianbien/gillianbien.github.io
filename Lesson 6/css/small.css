@@ -224,21 +224,7 @@ footer span, footer p{
         border-left:green solid 6px;
     }
     /*--------------------------Json Data---------------------------*/
-    .cards{
-        display:grid;
-        grid-template-columns:1fr;
-    }
-    .cards section{
-        border-style:outset;
-        border-radius: 1rem;
-        border-color:#2e6b72 ;
-    }
-    .cards h2{
-        text-align: center;
-    }
-    .cards h4{
-        text-align: center;
-    }
+
     .infoArticle{
         display:grid;
         grid-template-columns:1fr 1fr;
@@ -252,10 +238,17 @@ footer span, footer p{
         padding:1rem;
         background-color:#2e6b72
     }
-    article{
-        max-width: 600px;
-        margin: .5rem auto;
-        border:none;
-        background-color: #8bd6df;
-        padding:5px;
-      }
+    .cards h2{
+        text-align:center;
+    }
+    .cards h4{
+        text-align:center;
+    }
+    .cards section{flex-direction: column;}
+    .cards section:nth-child(odd) {
+            flex-direction:column;}
+    .cards {flex-direction: row;}
+
+  
+    
+    
