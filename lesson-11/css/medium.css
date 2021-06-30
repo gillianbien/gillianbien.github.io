@@ -1,0 +1,52 @@
+@media only screen and (min-width: 37.5em) {
+    .navigation { display: flex; }
+    .navigation li {display:block;
+                 flex: 1 1 100%;
+                 font-size:1.2rem;
+                 padding:4px;
+              }
+    .navigation li:first-child{
+        display:none;
+    }
+    h1{font-size:1.8rem}
+    footer span, footer p{
+        font-size:.9rem;}
+.stats{
+    position:absolute;
+    top:25px;
+    left: 50px;
+    padding: 1.5rem;
+    opacity: .9;}
+.heropicture{
+    width:98%;
+    height:70%;
+}
+#galleryDiv{grid-template-columns: 1fr 1fr;}
+}
+/*-----------------------------------------------------------*/
+.cards  {
+  max-width: 600px;
+  margin: .5rem auto;
+	border:1px solid #bbb;
+  background-color: #eee;
+	display: flex;
+	flex-wrap: wrap;
+}
+.cards section{
+  display: flex;
+	flex-direction: row;
+  background-color:#a4dfe6;
+}
+.cards section:nth-child(odd) {
+	flex-direction: row-reverse;}
+.cards img{
+  width:60%;
+ margin: 5px 0px 5px 0px;
+ box-shadow: 0 2px 15px gray;}
+
+.cards p{
+  text-align:center;
+  }
+.cards div{
+  padding: 30px;
+}
