@@ -29,6 +29,10 @@ footer span, footer p{
   
 }
 #galleryDiv{grid-template-columns: 1fr 1fr 1fr;}
+.contactInfo{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
 }
 /*----------------forms------------------------------------------------*/
     form fieldset{
@@ -42,16 +46,18 @@ footer span, footer p{
     }
 /*-------------------------------JSon-----------------------------------*/
 .cards section{
-flex-direction: column;
+grid-template-columns: 1fr;
 }
 .cards {
-    flex-direction: row;
+   grid-template-columns: 1fr 1fr 1fr;
 }
 .cards img{
     width:90%;
     margin: 10px;}
 .cards section:nth-child(odd) {
         flex-direction:column;}
+.infoArticle{
+        grid-template-columns:1fr 1fr;}
   
   
     

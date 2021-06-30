@@ -22,23 +22,26 @@
     height:70%;
 }
 #galleryDiv{grid-template-columns: 1fr 1fr;}
+.contactInfo{
+  grid-template-columns: 1fr;
+}
 }
 /*-----------------------------------------------------------*/
 .cards  {
   max-width: 600px;
   margin: .5rem auto;
-	border:1px solid #bbb;
-  background-color: #eee;
-	display: flex;
-	flex-wrap: wrap;
 }
 .cards section{
-  display: flex;
-	flex-direction: row;
-  background-color:#a4dfe6;
+  display: grid;
+	grid-template-columns: 1fr 1fr;
 }
-.cards section:nth-child(odd) {
-	flex-direction: row-reverse;}
+
+.cards section:nth-child(odd) img {
+  grid-column: 2;}
+.cards section:nth-child(even) div {
+  grid-column: 1;
+	grid-row: 1;
+}
 .cards img{
   width:60%;
  margin: 5px 0px 5px 0px;
@@ -50,3 +53,6 @@
 .cards div{
   padding: 30px;
 }
+
+ 
+ 

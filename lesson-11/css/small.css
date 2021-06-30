@@ -175,6 +175,12 @@ footer span, footer p{
     figcaption{
         padding: 5px;
     }
+    .prestonMap{
+        width:80%;
+        margin:1rem 3rem 3rem 3rem;
+        border-style: solid;
+        border-color:#102E4A;
+    }
     /*----------------- forms ----------------------*/
     
     form fieldset {
@@ -227,16 +233,25 @@ footer span, footer p{
 
     .infoArticle{
         display:grid;
-        grid-template-columns:1fr 1fr;
-        padding:50px;
+        grid-template-columns:1fr;
+        padding:20px;
+        margin: 2rem;
+        background-color:#F2A840;
+        border-style: solid;
+        border-width: 5px;
+        border-color:#102E4A;
     }
     .picArticle{
         width:90%;
-        margin: 25px;
+        margin: 60px 25px 10px 25px;
+        border-radius: 10px;
+        border-color:#36454f;
+        border-style: ridge;
     }
     .infoArticle p{
         padding:1rem;
-        background-color:#2e6b72
+        background-color:#102E4A;
+        color:white;
     }
     .cards h2{
         text-align:center;
@@ -244,10 +259,12 @@ footer span, footer p{
     .cards h4{
         text-align:center;
     }
-    .cards section{flex-direction: column;}
-    .cards section:nth-child(odd) {
-            flex-direction:column;}
-    .cards {flex-direction: row;}
+    .cards section{grid-template-columns: 1fr;
+                    }
+    .cards {
+         display:grid;
+           grid-template-columns: 1fr;}
+    
 
   
     
