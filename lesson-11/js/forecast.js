@@ -10,8 +10,8 @@ fetch(apiURL2)
 
     fiveDayForecast.forEach(x=>{
       let d= new Date(x.dt_txt);
-      document.getElementById("dayofWeek${day}").textContent = dayofWeek[d.getDay()];
-      document.getElementById("dayofWeek${day}").textContent = x.main.temp;
+      document.getElementById(`dayofWeek${day}`).textContent = dayofWeek[d.getDay()];
+      document.getElementById(`dayofWeek${day}`).textContent = x.main.temp;
       day++
     });
 });
