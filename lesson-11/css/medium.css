@@ -30,6 +30,8 @@
 .cards  {
   max-width: 600px;
   margin: .5rem auto;
+  grid-template-columns: 1fr 1fr;
+ 
 }
 .cards section{
   display: grid;
@@ -53,6 +55,7 @@
 .cards div{
   padding: 30px;
 }
+
 
  
  

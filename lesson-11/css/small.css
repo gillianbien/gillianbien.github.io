@@ -260,10 +260,32 @@ footer span, footer p{
         text-align:center;
     }
     .cards section{grid-template-columns: 1fr;
+        background-color: #a2d7dd;
+        border-style: ridge;
                     }
     .cards {
          display:grid;
            grid-template-columns: 1fr;}
+    .sodaSpringsEvents p, .fishHavenEvents p{
+        color:#a2d7dd;
+    }
+    .eventsDiv h3 {
+        text-align: center;
+        color:white;
+    }
+    .eventsDiv{
+        background-color:#488E99;
+        border-style: ridge;
+        border-color: #021518;
+        border-width: 5px;
+        margin:2rem 8rem;
+    }
+    .articleDiv, .articleDiv p{
+        margin:2rem 6rem;
+        background-color: bisque;
+        color:#021518;
+    }
+    
     
 
   

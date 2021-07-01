@@ -50,6 +50,7 @@ grid-template-columns: 1fr;
 }
 .cards {
    grid-template-columns: 1fr 1fr 1fr;
+   max-width: 900px;
 }
 .cards img{
     width:90%;
@@ -58,6 +59,12 @@ grid-template-columns: 1fr;
         flex-direction:column;}
 .infoArticle{
         grid-template-columns:1fr 1fr;}
+.cards section:nth-child(odd) img {
+  grid-column: 1;}
+.cards section:nth-child(even) div {
+  grid-column: 1;
+	grid-row: 1;}
+
   
   
     
