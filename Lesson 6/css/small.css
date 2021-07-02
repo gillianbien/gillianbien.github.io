@@ -244,11 +244,10 @@ footer span, footer p{
     .cards h4{
         text-align:center;
     }
-    .cards section{flex-direction: column;}
+    .cards section{}
     .cards section:nth-child(odd) {
             flex-direction:column;}
-    .cards {flex-direction: row;}
-
+    .cards {}
   
     
     

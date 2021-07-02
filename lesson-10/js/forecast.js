@@ -1,5 +1,5 @@
-const apiURL="https://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=27045adc690e2c2a1dff0bb397b2dbe2&units=imperial";
-fetch(apiURL)
+const apiURL2="https://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=27045adc690e2c2a1dff0bb397b2dbe2&units=imperial";
+fetch(apiURL2)
   .then((response) => response.json())
   .then((jsObject) => {
     console.log(jsObject);
@@ -10,8 +10,8 @@ fetch(apiURL)
 
     fiveDayForecast.forEach(x=>{
       let d= new Date(x.dt_txt);
-      document.getElementById("dayofWeek${day}").textContent = dayofWeek[d.getDay()];
-      document.getElementById("dayofWeek${day}").textContent = x.main.temp;
+      document.getElementById(`dayofWeek${day}`).textContent = dayofWeek[d.getDay()];
+      document.getElementById(`forecast${day}`).textContent = x.main.temp;
       day++
     });
 });

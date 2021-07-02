@@ -11,7 +11,19 @@ fetch(apiURL2)
     fiveDayForecast.forEach(x=>{
       let d= new Date(x.dt_txt);
       document.getElementById(`dayofWeek${day}`).textContent = dayofWeek[d.getDay()];
-      document.getElementById(`dayofWeek${day}`).textContent = x.main.temp;
+      document.getElementById(`forecast${day}`).textContent = x.main.temp;
+      document.getElementById(`icon${day}`).setAttribute('src', 'https://openweathermap.org/img/w/' + x.weather[0].icon + '.png');
       day++
     });
 });
+
+/*for (let day = 1; day <= 5; day++) {
+      let d= new Date(fiveDayForecast[day].dt_txt);
+      document.getElementById(`dayofWeek${day}`).textContent = dayofWeek[d.getDay()];
+      document.getElementById(`forecast${day}`).textContent = fiveDayForecast[day].main.temp;
+
+      document.getElementById(`icon${day}`).setAttribute("src", 'https://openweathermap.org/img/w/' + fiveDayForecast[day].weather[0].icon + '.png');
+      
+    }
+     
+*/
