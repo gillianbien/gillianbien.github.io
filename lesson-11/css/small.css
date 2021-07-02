@@ -256,12 +256,14 @@ footer span, footer p{
     }
     .cards h2{
         text-align:center;
+        color:azure;
     }
     .cards h4{
         text-align:center;
+        color:#F2A840;
     }
     .cards section{grid-template-columns: 1fr;
-        background-color: #16b7c9;
+        background-color: #102E4A;
         border-style: ridge;
                     }
     .cards {
