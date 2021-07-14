@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Canaman Chamber Of Commerse</title>
+  <meta name="desciption"
+    content="This is the websites Home Page." />
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Saira+Condensed:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+ 
+</head>
+
+
+<body>
+  <header>
+    <picture>
+        <a href="#"><img src="images/2nd logo.png" alt="Commerce logo"></a> 
+    </picture>
+    <section>
+        <h1> Canaman Chamber Of Commerce</h1>
+        <div class="motto">Love Local</div>
+    </section>
+  </header>
+ <nav>
+      <ul class="navigation">
+          <li><a href="#" onclick="toggleMenu()">&#9776; Menu </a></li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#" target="blank">City</a></li>
+          <li><a href="#" target="blank">Join</a></li>
+          <li><a href="#" target="blank">Directory</a></li>
+          <li><a href="#" target="blank">Contact Us</a></li>
+          
+      </ul>
+ </nav>
+ <main> 
+    <h2>Storm Center</h2>
+    <form method="get" action="thanks.html">
+      <fieldset>
+        <label class="top">First Name* <input type="text" name="firstname" minlength="5" required></label>
+        <label class="top">Last Name* <input type="text" name="lastname" minlength="5" required></label>
+        <label class="top">Title <input type="text" name="name" minlength="5"></label>
+        <label class="top">E-mail*<input type="email" name="email" placeholder="someone@gmail.com" required></label>
+        <label class="top">Phone Number*<input type="tel" name="phone" required></label>
+        <label class="top">Business Name *<input type="text" name="businessname" required></label>
+        <label class="top">Business Address<input type="text" name="businessadd"></label>
+        <label class="top">Business Website <input type="url" name="businessweb" placeholder="https//www.something.com"></label>
+        <textarea name="busDescription"
+            rows="5" cols="33">
+            </textarea>
+        
+      
+        <label class="top">Storm Date<input type="date" name="stormDate"></label>
+        <label class="top">Storm Type
+          <label class="top">Storm Type
+          <input name="stormtype" />
+          
+          <datalist>
+              <option value="flash Flood">
+              <option value="hail">
+              <option value="hurricane">
+              <option value="thunderstorm">
+              <option value="tornado">
+          </datalist>
+        </label>  
+      <label>Storm Severity<input type="range" name="range"
+        min="1" max="10"></label>
+        <label>Storm Region
+          <select name="stormRegion">
+              <option value="">Select Region</option>
+              <option value="preston">Preston</option>
+              <option value="sodaSprings">Soda Springs</option>
+              <option value="fishHaven">Fish Haven</option>
+          </select>
+          <legend>User in-danger Level</legend>
+          <div>
+          <label class="radio">Yes<input type="radio" name="audience" value="yes"></label>
+          <label class="radio">Maybe<input type="radio" name="audience" value="maybe"></label>
+          <label class="radio">No<input type="radio" name="audience" value="no"></label>
+        </div>
+        </fieldset>
+        <fieldset>
+      <label for="story">Additional Information or Comments
+  
+            <textarea name="additionalInfo"
+            rows="5" cols="33">
+            </textarea>
+          </label>
+        </fieldset>
+        <a href="thanks.html"><input type="submit" name="submit" value="Process" class="submitButton" ></a>
+  
+        
+    </form>
+  </main>
+  <footer><span id="perInfo">&copy; 2021 | Canaman Chamber Of Commerce | Philippines | <a href="https://www.byui.edu/online">BYUI
+    Online Learning </a></span>
+    <p>| Current Date: <span id="currentDate"></span></p>
+  </footer>
+  <script src='js/preston-6.js'></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+  <script>
+    WebFont.load({
+  google: {
+    families: [
+       'Esteban']}});
+  </script>
+
+
+
+  
+</body>
+
+</html>
