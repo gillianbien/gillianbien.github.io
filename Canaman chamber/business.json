@@ -31,26 +31,16 @@
         "imageurl": "https://scontent.fmnl9-2.fna.fbcdn.net/v/t1.6435-9/135292659_875667189643469_6046260344670790793_n.jpg?_nc_cat=101&ccb=1-3&_nc_sid=09cbfe&_nc_eui2=AeH7SeelS453FpDH5NQOjcVxXdWD0DdurO1d1YPQN26s7bB4JA7-sMMyItnacEGxTT3rO1BnUg0oWcKkx0_1yCxL&_nc_ohc=kY1U6w8xE0UAX_PsAw6&tn=-e3NaOYGhRWybGBg&_nc_ht=scontent.fmnl9-2.fna&oh=93301c43a836e2dba68796e3b6b4bd89&oe=60F299D4"
       },
       {
-        "name": "Joseph F.",
-        "lastname": "Smith",
-        "birthdate": "12 November 1838",
-        "death": "19 November 1918",
-        "length": 17,
-        "order": 6,
-        "birthplace": "Missouri",
-        "numofchildren": 48,
-        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/joseph-f-smith-82912-gallery.jpg"
+        "name": "",
+        "contact": "",
+        "weblinks": "",
+        "imageurl": ""
       },
       {
-        "name": "Heber J.",
-        "lastname": "Grant",
-        "birthdate": "22 November 1856",
-        "death": "14 May 1945",
-        "length": 23,
-        "order": 7,
-        "birthplace": "Utah",
-        "numofchildren": 12,
-        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/heber-j-grant-82913-gallery.jpg"
+        "name": "",
+        "contact": "",
+        "weblinks": "",
+        "imageurl": ""
       }
       
     ]
