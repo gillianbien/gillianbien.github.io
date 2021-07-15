@@ -41,7 +41,8 @@
       </ul>
  </nav>
  <main> 
-    <h2>Storm Center</h2>
+    <h2>Application form</h2>
+    
     <form method="get" action="thanks.html">
       <fieldset>
         <label class="top">First Name* <input type="text" name="firstname" minlength="5" required></label>
@@ -55,46 +56,15 @@
         <textarea name="busDescription"
             rows="5" cols="33">
             </textarea>
-        
-      
-        <label class="top">Storm Date<input type="date" name="stormDate"></label>
-        <label class="top">Storm Type
-          <label class="top">Storm Type
-          <input name="stormtype" />
-          
-          <datalist>
-              <option value="flash Flood">
-              <option value="hail">
-              <option value="hurricane">
-              <option value="thunderstorm">
-              <option value="tornado">
-          </datalist>
-        </label>  
-      <label>Storm Severity<input type="range" name="range"
-        min="1" max="10"></label>
-        <label>Storm Region
-          <select name="stormRegion">
-              <option value="">Select Region</option>
-              <option value="preston">Preston</option>
-              <option value="sodaSprings">Soda Springs</option>
-              <option value="fishHaven">Fish Haven</option>
-          </select>
-          <legend>User in-danger Level</legend>
+          <legend>Membership Level Selection</legend>
           <div>
-          <label class="radio">Yes<input type="radio" name="audience" value="yes"></label>
-          <label class="radio">Maybe<input type="radio" name="audience" value="maybe"></label>
-          <label class="radio">No<input type="radio" name="audience" value="no"></label>
+          <label class="radio">Non-profit ($100)<input type="radio" name="audience" value="non"></label>
+          <label class="radio">Bronze ($200) <input type="radio" name="audience" value="bronze"></label>
+          <label class="radio">Silver ($400)<input type="radio" name="audience" value="silver"></label>
+          <label class="radio">Gold ($1000)<input type="radio" name="audience" value="silver"></label>
         </div>
-        </fieldset>
-        <fieldset>
-      <label for="story">Additional Information or Comments
-  
-            <textarea name="additionalInfo"
-            rows="5" cols="33">
-            </textarea>
-          </label>
-        </fieldset>
-        <a href="thanks.html"><input type="submit" name="submit" value="Process" class="submitButton" ></a>
+        </fieldset> 
+        <a href="thanks.html"><input type="submit" name="submit" value="Join" class="submitButton" ></a>
   
         
     </form>
@@ -106,7 +76,7 @@
     <a href=""><img src="images/instagram (1).png"></a>
     <a href=""><img src="images/youtube.png"></a>
   </footer>
-  <script src='js/preston-6.js'></script>
+  <script src="js/thanks.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
   <script>
     WebFont.load({
