@@ -41,22 +41,23 @@
       </ul>
  </nav>
  <main> 
+   <div class="formBenefit">
    <h2>Why join?</h2>
    <p>These are some of the benefits of joining our chamber:</p>
-   <h4>Non-profit</h4>
+   <h3>Non-profit</h3>
    <ul>
      <li>You will receive weekly updates of our latest events and happening.</li>
      <li>You can join our business trainings.</li>
      <li>You can receive a copy of our trainings online.</li>
    </ul>
-   <h4>Bronze</h4>
+   <h3>Bronze</h3>
    <ul>
    <li>You will receive weekly updates of our latest events and happening.</li>
    <li>You can join our business trainings.</li>
    <li>You can receive a copy of our trainings online.</li>
    <li>You can list your business on our directory.</li>
   </ul>
-   <h4>Silver</h4>
+   <h3>Silver</h3>
    <ul>
     <li>You will receive weekly updates of our latest events and happening.</li>
     <li>You can join our business trainings.</li>
@@ -64,7 +65,7 @@
     <li>You can list your business on our directory.</li>
     <li>Your business will be featured on our social media posts.</li>
    </ul>
-   <h4>Gold</h4>
+   <h3>Gold</h3>
    <ul>
     <li>You will receive weekly updates of our latest events and happening.</li>
     <li>You can join our business trainings.</li>
@@ -73,11 +74,12 @@
     <li>Your business will be featured on our social media posts.</li>
     <li>Have luncheon tickets</li>
    </ul>
+  </div>
 
-
-    <h2>Application form</h2>
+    
     <form method="get" action="thanks.html">
       <fieldset>
+        <legend>Application form</legend>
         <label class="top">First Name* <input type="text" name="firstname" minlength="5" required></label>
         <label class="top">Last Name* <input type="text" name="lastname" minlength="5" required></label>
         <label class="top">Title <input type="text" name="name" minlength="5"></label>
@@ -86,11 +88,12 @@
         <label class="top">Business Name *<input type="text" name="businessname" required></label>
         <label class="top">Business Address<input type="text" name="businessadd"></label>
         <label class="top">Business Website <input type="url" name="businessweb" placeholder="https//www.something.com"></label>
-        <textarea name="busDescription"
+        <label class="top">Business Description<textarea name="busDescription"
             rows="5" cols="33">
-            </textarea>
-          <legend>Membership Level Selection</legend>
+            </textarea></label>
+         
           <div>
+            <legend>Membership Level Selection</legend>
           <label class="radio">Non-profit ($100)<input type="radio" name="audience" value="non"></label>
           <label class="radio">Bronze ($200) <input type="radio" name="audience" value="bronze"></label>
           <label class="radio">Silver ($400)<input type="radio" name="audience" value="silver"></label>
@@ -110,6 +113,7 @@
     <a href="https://www.youtube.com/"><img src="images/youtube.png"></a>
   </footer>
   <script src="js/thanks.js"></script>
+  <script src="js/navmenu.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
   <script>
     WebFont.load({

@@ -27,7 +27,9 @@
     }
     
     .gridArticle{
-        grid-template-areas:"content content ad"
-                            "content content ad"
-                            "sidebar sidebar sidebar";
+       grid-template-columns: 1fr 1fr;
+    }
+    .cards{
+        grid-template-columns: 1fr 1fr;
+        position:initial;
     }

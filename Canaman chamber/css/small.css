@@ -58,7 +58,7 @@ nav {
         background-color: #7a9b76;
         color: #0a131a;
     }
-.active {
+.navigation li:active {
         color: #7a9b76;}
 .navigation li:first-child{
                 display: block;
@@ -118,13 +118,9 @@ h2{text-indent: 1rem;
     font-family: 'Berkshire Swash', cursive;
     color: #111d4a;
 }
-.gridArticle{
-    display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-areas: "sidebar sidebar sidebar"
-                          "content content content"
-                          "ad ad ad"
+.gridArticle{display:grid;
+            grid-template-columns: 1fr;
+    
 }
 .gridArticle img{
     max-width:90%;
@@ -134,15 +130,89 @@ h2{text-indent: 1rem;
 .articlePic p{
     font-size:.5rem;
 }
-.eventsDiv{
-   grid-area:sidebar;
+
+.contactInfo{
+    
 }
-.articleDiv{
-    grid-area:content;
+.curWeather{
+    border:#111d4a solid 5px;
+    background-color:#f5ae09;
 }
-.articlePic{
-    grid-area:ad;
+.cards{
+    display:grid;
+    grid-template-columns: 1fr;
+    text-align:center;
+    }
+.cards section{
+    background-color: white ;
+    color:#111d4a;
+    margin:5px;
+    border:#111d4a solid 2px;
 }
-.canamanMap{
-    max-width:100%;
+.cards section:hover {box-shadow: 0 0 50px #111d4a;}
+/*-----------forms------------*/
+form fieldset {
+    margin:.5rem;
+    border: 5px solid #102E4A;
+    border-radius: 10px;
+    padding:.5rem 2%;
+    background-color:white;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+form label.top input, label textarea, form label select {
+    display:block;
+   border: solid 3px #102E4A;
+   border-radius: 4px;
+   padding:.50rem;
+   color:#36454f;
+   width: 100%;
+   max-width:20rem;
+   background-color:rgb(184, 209, 211);
+}
+form label.top{
+    font-size:.8rem;
+    margin-top:1rem;
+    padding-top:5px;
+
+}
+legend{
+    padding-top:1rem;
+}
+form label.radio input{
+   display:block;
+   width:2rem;
+}
+input.submitButton{
+    border:none;
+    background-color:#db5461;
+    color:#102E4A;
+    border-radius:1rem;
+    padding:.5rem 1.5rem;
+    margin: 0 0 2rem 1.5rem;
+    width:90%;
+    max-width:20rem;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+form label.top input:required{
+    border-left:red solid 6px;
+}
+form label.top input:required:valid{
+    border-left:green solid 6px;
+}
+form label{
+    font-size: 1.5rem;
+}
+input.submitButton:hover{
+    background-color:lightcoral;
+    color:#102E4A;
+}
+.formBenefit{
+    padding:1rem 2rem;
+
+}
+iframe{
+    margin:1rem 3rem;
+    
 }

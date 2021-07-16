@@ -51,41 +51,53 @@
         <a href="#"><h4>Join Us Now</h4></a>
 
       </section>
+      <section class="curWeather">
+        <h2>Current Weather Information</h2>
+        <p>Currently:<span id="descript"></span></p>
+        <p>High:<span id="outputTemp"></span>&deg;F</p>
+        <p>Humidity:<span id="humid"></span></p>
+        <li class="flex-item"><span id="dayofWeek1"></span><img src="" alt="" id="icon1"><span id="forecast1"></span>&deg; F</li>
+        <li class="flex-item"><span id="dayofWeek2"></span><img src="" alt="" id="icon2"><span id="forecast2"></span>&deg; F</li></li>
+        <li class="flex-item"><span id="dayofWeek3"></span><img src="" alt="" id="icon3"><span id="forecast3"></span>&deg; F</li></li>
+          </section>
       <div class="gridArticle">
-      <div class="eventsDiv">
+       <div class="eventsDiv">
       <h2>Latest & Upcoming Events:</h2>
       <p> Canaman Fiesta- August 14, 2021 </p>
       <p>Barangay Haring Fiesta - August 3, 2021</p>
       <p>National Disaster Resilience Month- July 2021  </p>
       <p>Blood Letting Program - July 9, 2021</p>
       <p>Free Chest X-ray- June 18, 2021</p>
-    </div>
+        </div>
+        <div class="businessDiv">
+          <h2>Our Featured Local Business</h2>
+          <aside class="business1">
+          <h4>Alfresh Cravings</h4>
+          <p>If you are looking for delicious snacks but are worried about your health, you can try Alfresh's nutrient-dense, delicious treats. You can satisfy your cravings while staying healthy. 
+          </p>
+          <img src="images/alfresh picture.jpg" alt="Alfresh Smoothie Fruit Blend">
+        </aside>
+          <aside class="business2">
+            <h4>Fry-yay</h4>
+            <p>Fry-yay is a take-out corner for your favorite silog meals. Silog meal is a local fastfood menu which is a combination of fried rice, eggs, and meat. They also offer other snacks like burgers and fries.</p>
+            <img src="images/fry-yay picture.jpg" alt="Fry-yay silog meals">
+          </aside>
+          <aside class="business3">
+            <h4>Tata's Cakes N' More</h4>
+            <p> If you want affordable but delicious cakes and pastry products Tata's Cakes N' More has you covered. </p>
+            <img src="images/tata's cake.jpg" alt="Tata's Wedding Cake">
+          </aside>
+        </div>
+  
     <div class="articleDiv">
-      <h3>Our Purpose</h3>
+      <h2>Our Purpose</h2>
       <p>Canaman Chamber of Commerce is created to promote our local business establishments, to post local events, news and weather updates. We also want to connect buyers and sellers within the community.
         This website also aims to attract tourists from other regions or even foreign countries. <br>
         We would like to help our local community to prosper. Everyone is welcome to visit and be a member of this website. You can check our join portal, if you want to be a member of our chamber. 
       </p>
     </div>
-    <div class="businessDiv">
-      <h3>Our Featured Local Business</h3>
-      <aside class="business1">
-      <h4>Alfresh Cravings</h4>
-      <p>If you are looking for delicious snacks but are worried about your health, you can try Alfresh's nutrient-dense, delicious treats. You can satisfy your cravings while staying healthy. 
-      </p>
-      <img src="images/alfresh picture.jpg" alt="Alfresh Smoothie Fruit Blend">
-    </aside>
-      <aside class="business2">
-        <h4>Fry-yay</h4>
-        <p>Fry-yay is a take-out corner for your favorite silog meals. Silog meal is a local fastfood menu which is a combination of fried rice, eggs, and meat. They also offer other snacks like burgers and fries.</p>
-        <img src="images/fry-yay picture.jpg" alt="Fry-yay silog meals">
-      </aside>
-      <aside class="business3">
-        <h4>Tata's Cakes N' More</h4>
-        <p> If you want affordable but delicious cakes and pastry products Tata's Cakes N' More has you covered. </p>
-        <img src="images/tata's cake.jpg" alt="Tata's Wedding Cake">
-      </aside>
-    </div>
+    
+    
     
   </div>
     </div>
@@ -108,7 +120,8 @@
     <a href="https://www.instagram.com/"><img src="images/instagram (1).png"></a>
     <a href="https://www.youtube.com/"><img src="images/youtube.png"></a>
   </footer>
-  <script src='js/preston-6.js'></script>
+  <script src='js/api.js'></script>
+  <script src="js/navmenu.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
   <script>
     WebFont.load({
