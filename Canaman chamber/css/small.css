@@ -33,9 +33,11 @@ nav {
         background-color: #111D4A;
         text-align: center;
         box-shadow: 0 2px 15px gray;
-        
-
-    }
+        }
+footer{
+    color:white;
+    
+}
 .navigation{ padding:0;
             margin:0;}
 .navigation li  {
@@ -216,3 +218,12 @@ iframe{
     margin:1rem 3rem;
     
 }
+footer img{
+margin:3px;
+width:3rem;
+}
+.navFooter{
+    margin-left:3rem;
+}
+
+
