@@ -72,4 +72,7 @@
     form fieldset{
         margin: 2rem 4rem;
     }
+    .canamanArticle img{
+        width:30rem;
+        float:right;}
 }

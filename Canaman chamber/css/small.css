@@ -202,6 +202,9 @@ h2{text-indent: 1rem;
     grid-template-columns: 1fr 1fr 1fr;
     font-size:1rem;
 }
+.canamanArticle img{
+   width:20rem;
+}
 
 
 .cards{

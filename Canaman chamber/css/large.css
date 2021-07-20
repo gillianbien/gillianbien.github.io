@@ -63,6 +63,11 @@ footer span, footer p{
     margin: 1rem;
    
 }
+.canamanArticle img{
+    width:55rem;
+    
+ }
+ 
 .cards {
     grid-template-columns:1fr 1fr 1fr;
     grid-gap:5px;
