@@ -1,8 +1,19 @@
-window.addEventListener("DOMContentLoaded", function(){
-    document.getElementById("listView").addEventListener("click", function(){
-      document.getElementsByClassName("cards").classList.remove("grid");
-    });
-    document.getElementById("gridView").addEventListener("click", function(){
-      document.getElementsByClassName("cards").classList.add("grid");
-    });
-  });
+// Get the elements with class="column"
+var elements = document.createAttribute("div.cards section:nth-child(odd)");
+
+// Declare a loop variable
+var i;
+
+// List View
+function listView() {
+  for (i = 0; i < elements.length; i++) {
+    elements[i].style.width = "100%";
+  }
+}
+
+// Grid View
+function gridView() {
+  for (i = 0; i < elements.length; i++) {
+    elements[i].style.width = "50%";
+  }
+}
