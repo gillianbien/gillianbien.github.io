@@ -12,7 +12,7 @@
     footer span, footer p{
         font-size:.9rem;}
    
-    .attentionSection{
+    .attentionSection, .weatherSection{
             position:absolute;
             top:25px;
             left: 50px;
@@ -22,6 +22,7 @@
             margin-top:5rem;}     
    
     .joinSection{
+        background: radial-gradient(white,#f5ae09);
         position:-webkit-sticky;
         position:sticky;
         top: 0;

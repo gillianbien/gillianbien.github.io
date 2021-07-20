@@ -70,11 +70,19 @@ footer{
 .attentionSection{
     position:relative;
     top:5px;
-    background: radial-gradient(#4359a8,#111d4a);
+    background: radial-gradient(white,#b4d4ee);
     border: 1px;
     padding: 1rem;
     box-shadow: 0 0 30px #0f1111;
 }
+.weatherSection{
+        position:relative;
+        top:5px;
+        background: radial-gradient(white,#f5ae09);
+        border: #111d4a solid 5px;
+        padding: 1rem;
+        box-shadow: 0 0 30px #0f1111;
+    }
 .mainDivPicture{
         width:100%;
         height:80%;
@@ -83,15 +91,15 @@ footer{
     margin:10px auto;
     position: relative;
 }
-.attentionSection h3{
+.attentionSection h2{
     color:#ff0821;
     font-size:1.5rem;
     font-weight:bold;
     text-align:center;
 
 }
-.attentionSection p{
-    color:#f5ae09;
+.attentionSection p, .weatherSection p{
+    color:#111D4A;
     font-weight:bold;
     text-align:center;
 }
@@ -100,7 +108,7 @@ footer{
     font-size:1.5rem;
     font-weight:bolder;
     font-family:'Berkshire Swash', cursive;
-    color:white;
+    color:rgb(211, 44, 44);
     text-align:center;
 }
 .attentionSection a:hover{
@@ -170,9 +178,9 @@ h2{text-indent: 1rem;
 }
 .joinSection{
     position:relative;
-    background: radial-gradient(white,#f5ae09);
-    margin:0 1rem;
-    border-radius:20px;
+    background: white;
+    margin:0;
+    border-radius:0;
 }
 .joinSection h3{
     text-align: center;
