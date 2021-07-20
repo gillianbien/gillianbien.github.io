@@ -100,7 +100,7 @@ footer{
 }
 .attentionSection p, .weatherSection p{
     color:#111D4A;
-    font-weight:bold;
+    font-weight:bolder;
     text-align:center;
 }
 .attentionSection a{
@@ -197,6 +197,13 @@ h2{text-indent: 1rem;
     border:#111d4a solid 5px;
     background-color:#f5ae09;
 }
+.dailyTemp{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-size:1rem;
+}
+
+
 .cards{
     display:grid;
     grid-template-columns: 1fr;

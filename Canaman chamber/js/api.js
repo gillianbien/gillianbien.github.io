@@ -1,4 +1,4 @@
-const apiURL="http://api.openweathermap.org/data/2.5/onecall/timemachine?lat=60.99&lon=30.9&dt=1586468027&appid=55fa2df7df9cc9962a18b5c146dd8cb1&units=imperial";
+const apiURL="https://api.openweathermap.org/data/2.5/onecall?lat=12.8797&lon=121.7740&exclude=hourly,daily&appid=55fa2df7df9cc9962a18b5c146dd8cb1&units=imperial";
 fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {
@@ -17,9 +17,9 @@ const fiveDayForecast = jsObject.list.filter(daily => daily.temp.day.includes('1
 //console.log(fiveDayForecast);
 
 fiveDayForecast.forEach(x=>{
-  let d= new Date(x.dt_txt);
+  let d= new Date(x.temp.day);
   document.getElementById(`dayofWeek${day}`).textContent = dayofWeek[d.getDay()];
-  document.getElementById(`forecast${day}`).textContent = x.main.temp;
+  document.getElementById(`forecast${day}`).textContent = x.current.temp;
   //document.getElementById(`icon${day}`).setAttribute('src', 'https://openweathermap.org/img/w/' + x.weather[0].icon + '.png');
   day++
 });

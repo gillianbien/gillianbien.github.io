@@ -1,5 +1,5 @@
 // Get the elements with class="column"
-var elements = document.createAttribute("div.cards section:nth-child(odd)");
+var elements = document.querySelector("div.cards");
 
 // Declare a loop variable
 var i;
