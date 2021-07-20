@@ -1,6 +1,6 @@
 @media only screen and (min-width: 60em){
-    header img{ width:120px;}
-    .navigation li{
+header img{ width:120px;}
+.navigation li{
 font-size:1.2rem;
 padding:6px;
 }
@@ -13,7 +13,6 @@ footer span, footer p{
     margin-top:100px;
     width:400px;
     }
-}
 
 .divPic{
     width:100%;
@@ -24,20 +23,43 @@ footer span, footer p{
     font-size:1.8rem;
 }
 .gridArticle{
-    grid-template-columns:1fr 2fr 1fr;
-    grid-template-rows:1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 2fr;
+    
 }
 .businessDiv{
-    grid-row:1/5;
+    grid-column:2/3;
+   
+}
+.articleDiv{
+    grid-column:3/4;
+    grid-row:1/2;
+    align-self:start;
+}
+.eventsDiv{
+    grid-column:1/2;
+    grid-row:1/2;
+    align-self:start;
 }
 .cards {
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 100%;
+    grid-gap:5px;
 }
-.cards img{
-    width:200px;
-    margin:1rem 2rem;
-    border:gray solid 2px;
-   }
+.cards.grid{grid-template-columns: 1fr 1fr 1fr;}
 
+.joinSection{
+    position:-webkit-sticky;
+    position:fixed;
+    top: 10rem;
+    right: 0;
+    padding: 2px 1px;
+    border: 4px outset;
+    border-radius:20px;}
+
+form fieldset{
+    margin:2rem 6rem;
+}
+
+}
 
 

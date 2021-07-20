@@ -13,7 +13,7 @@ fetch(apiURL)
 //document.getElementById('icon').setAttribute('src', imagesrc);  // focus on the setAttribute() method
 //document.getElementById('icon').setAttribute('alt', desc);
 const dayofWeek =["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
-const fiveDayForecast = jsObject.list.filter(forecast => forecast.dt_txt.includes('12:00:00'));
+const fiveDayForecast = jsObject.list.filter(daily => daily.temp.day.includes('12:00:00'));
 //console.log(fiveDayForecast);
 
 fiveDayForecast.forEach(x=>{
