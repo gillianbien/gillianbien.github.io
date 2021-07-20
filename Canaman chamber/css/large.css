@@ -23,23 +23,45 @@ footer span, footer p{
     font-size:1.8rem;
 }
 .gridArticle{
-    grid-template-columns: 1fr 2fr 1fr;
-    grid-template-rows: 1fr 2fr;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr;
+    
     
 }
 .businessDiv{
     grid-column:2/3;
-   
+    margin: 1rem;
+    
 }
 .articleDiv{
-    grid-column:3/4;
-    grid-row:1/2;
-    align-self:start;
+    grid-column:1/2;
+    grid-row:2/3;
+    align-self:stretch;
+    margin: 1rem;
+
+}
+.business1{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+.business1 p{
+    font-size:1.7rem;
+}
+
+.business1:nth-child(odd) section{
+    grid-column:2;
+}
+.business1:nth-child(odd) img {
+    grid-column:1;
+    grid-row:1;
+    margin:1rem;
 }
 .eventsDiv{
     grid-column:1/2;
     grid-row:1/2;
-    align-self:start;
+    align-self:stretch;
+    margin: 1rem;
+   
 }
 .cards {
     grid-template-columns: 100%;

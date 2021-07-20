@@ -51,16 +51,19 @@
     .businessDiv{
         grid-row: 1/3;
         font-size:1.2rem;
+        margin:.5rem;
     }
     .eventsDiv{
         grid-row:1/2;
         align-self:start;
         font-size:1.2rem;
+        margin:.5rem;
     }
     .articleDiv{
         grid-row:2/3;
         align-self:start;
         font-size:1.2rem;
+        margin:.5rem;
     }
     .cards{
         grid-template-columns: 1fr 1fr;

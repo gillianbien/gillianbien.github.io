@@ -128,19 +128,32 @@ h2{text-indent: 1rem;
 
 }
 .articleDiv{
-    margin:1rem;
+    margin:0 auto;
     background-color:aquamarine;
     padding:1rem;
+    
+}
+.articleDiv p{
+        font-size:1.5rem;   
 }
 .eventsDiv{
     background-color:#7a9b76;
     color:white;
-    margin:0 1rem;
-    padding: 1rem;}
-.businessDiv{
-    padding:4px;
-    margin:2px;
+    margin:0 auto;
+    padding:1rem;
+   }
+.eventsDiv p{
+    font-size:1.5rem;
 }
+.businessDiv{
+    padding:1rem;
+    margin:0 auto;
+    background-color:white;
+}
+.business1 p{
+    font-size:1.5rem;
+}
+
 .attentionSection h2{
     color:#f5ae09;
 }
@@ -166,8 +179,10 @@ h2{text-indent: 1rem;
 }
 
 .contactInfo{
-    margin:1rem;
-    padding: 1rem;
+    margin:0 auto;
+    padding: 1rem 2rem;
+    background-color:white;
+    
     
 }
 .curWeather{
@@ -303,6 +318,6 @@ width:3rem;
   }
 p{
     font-family: 'Saira Condensed', sans-serif;
-    font-weight:bold;
+    font-weight:700;
 }
 
