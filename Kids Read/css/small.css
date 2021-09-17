@@ -1,0 +1,67 @@
+
+header, main, footer{
+    max-width: 760px;
+    margin: 0 auto;
+}
+header{
+    background-color:#6495ED;
+    padding: 5rem 2rem;
+    }
+body{
+    font-family: Helvetica, Arial, sans-serif;
+}
+a {
+text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;}
+a:active{
+    color:#DEB887;
+}
+a:visited{
+    color:#6495ED;
+}
+
+header a{
+    color:#FAEBD7;
+    }
+header li{
+    list-style-type: none;
+    text-align: right;
+    padding:.5rem;
+}
+ul li a:hover, header h1 a:hover{ color: white;
+    text-decoration: underline;
+}
+ul li a:active, header h1 a:active{color: #DEB887;
+}
+ul li a:visited, header h1 a:visited{
+    color:#FAEBD7;
+}
+h1 {
+    font-family: 'Lora', serif;
+    text-align: right;
+    color:#FAEBD7;
+}
+
+main{ background-color: #FAEBD7;
+     padding: 2rem;}
+.post-content h2 a{
+    color:black;
+}
+.post-content h2 a:hover{
+    color:#6495ED;
+    text-decoration: underline;
+}
+.post-content h2 a:active{
+    color:#DEB887;
+}
+article{
+    background-color: white;
+    padding:4rem;
+    margin-bottom: 2rem;
+    box-shadow: 2px 2px 2px gray;
+}
+.post-date{
+    color:gray;
+}

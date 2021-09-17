@@ -1,5 +1,5 @@
 // Get the elements with class="column"
-var elements = document.querySelector("div.cards");
+var elements = document.querySelector(".cards section");
 
 // Declare a loop variable
 var i;
